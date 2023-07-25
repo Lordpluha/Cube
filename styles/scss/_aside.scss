@@ -1,0 +1,176 @@
+aside {
+	display: block;
+	width: 100%;
+	height: 963px/6950px*100%;
+	
+	section {
+		display: block;
+		width: 100%;
+	}
+
+	#Firms {
+		height: 403px;
+		background-color: #f2f2f2;
+		@include users-select-none;
+
+		.content {
+			width: 100%;
+			height: 100%;
+
+			.slider {
+				width: 100%;
+				height: 90%;
+				overflow: hidden;
+
+				.slider_bg {
+					width: 200%;
+					height: 90%;
+					transition: margin-left 1s ease-in-out;
+
+					div {
+						display: flex;
+						justify-content: space-around;
+						width: 50%;
+						padding: 134px 43px 0;
+
+						.content {
+							width: 100%;
+							padding: 0;
+
+							img {
+								display: inline-block;
+							}
+						}
+					}
+
+					.f_slide {
+						float: left;
+					}
+
+					.s_slide {
+						display: hidden;
+						float: left;
+						vertical-align: top;
+					}
+				}
+			}
+
+			.actives {
+				position: absolute;
+				display: block;
+				width: 100%;
+				top: 313px;
+				
+				.buts {
+					display: flex;
+					justify-content: space-between;
+					margin: 0 auto;
+					width: 38px;
+					height: 14px;
+
+					div {
+						display: inline-block;
+						cursor: pointer;
+					}
+
+					.active1 {
+						.active {
+							display: block;
+						}
+						.passive {							
+							display: none;
+						}
+					}
+					.active2 {
+						
+						.active {
+							display: none;
+						}
+						.passive {	
+							display: block;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	#feedback {
+		background-color: #fff;
+		height: 560px;
+
+		.content {
+			display: block;
+			width: 100%;
+			height: 100%;
+
+			.feedb {
+				display: block;
+				margin: 0 auto;
+				padding-top: 190px;
+				width: 48.5%;
+				
+				img {
+					display: block;
+					margin: 2px auto 0;
+				}
+
+				.message {
+					display: block;
+					margin: 40px auto 0;
+					text-align: left;
+					
+					h1 {
+						font-family: "Lekton-Italic", Arial, sans-serif;
+						font-weight: 100;
+						font-size: 24px;
+						line-height: 100%;
+						word-spacing: .6px;
+
+						.link_twit {
+							color: #6cc5d9;
+							font-weight: 200;
+						}
+					}
+				}
+
+				.time {
+					display: block;
+					text-align: left;
+					width: 100%;
+					margin-top: 14px;
+					height: 2px;
+
+					.decore {
+						position: absolute;
+						left: 0;
+						display: block;
+						height: 1px;
+						width: 100%;
+						background-color: #d0d0d0;
+
+						.time_block {
+							position: absolute;
+							display: block;
+							background-color: #fff;
+							left: 26px;
+							top: -9px;
+							height: 20px;
+							width: 40px;
+
+							.time {
+								position: relative;
+								display: block;
+								font-family: "Lekton-Bold", Arial, sans-serif;
+								color: #f48258;
+								font-size: 12px;
+								margin: 0;
+								text-align: center;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

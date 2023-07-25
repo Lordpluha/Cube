@@ -1,0 +1,187 @@
+footer {
+	background-color: #fff;
+	height: 505px;
+
+	.content {
+		display: block;
+		width: 100%;
+		height: 100%;
+
+		div {
+			display: inline-block;
+			width: 50%;
+			height: 100%;
+			vertical-align: top;
+			float: left;
+		}
+
+		.left {
+			background-color: #c6bfaf;
+			padding: 60px 0 0 86px;
+
+			form {
+				display: block;
+				height: 100%;
+				width: 100%;
+
+				.header {
+					display: block;
+					width: 82%;
+					color: #646250;
+					height: 18%;
+
+					h1 {
+						display: block;
+						font-family: "Lekton-Regular", Arial, sans-serif;
+						font-size: 24px;
+						text-transform: uppercase;
+					}
+
+					p {
+						display: block;
+						margin-top: 2px;
+						font-family: "Lekton-Regular", Arial, sans-serif;
+						font-size: 12px;
+						text-transform: uppercase;
+						word-spacing: 0.3px;
+						line-height: 120%;
+					}
+				}
+
+				.input_block {
+					display: block;
+					width: 100%;
+					height: 70%;
+					margin: 14px 0 0 45px;
+
+					input {
+						display: block;
+						width: 66%;
+						height: 20px;
+						margin-top: 30.2px;
+						background-color: rgba(0, 0, 0, 0);
+						border-bottom: 1px solid #646250;
+						text-transform: uppercase;
+						font-family: "Lekton-Regular", Arial, sans-serif;
+						font-size: 14px;
+					}
+
+					input[name="name"] {
+
+					}
+
+					input[name="email"] {
+
+					}
+
+					input[name="message"] {
+
+					}
+
+					input[type="text"]::last-child {
+
+					}
+
+					button[type="submit"] {
+						display: block;
+						margin: 57px 140px 0;
+						width: 120px;
+						height: 35px;
+						background-color: rgba(0, 0, 0, 0);
+						border: 1px solid #646250;
+						color: white;
+						text-transform: uppercase;
+						font-family: "Lekton-Regular", Arial, sans-serif;
+						cursor: pointer;
+						font-size: 14px;
+					}
+				}
+			}
+		}
+
+		.right {
+			background-color: #f0d93e;
+
+			.content {
+				display: block;
+				width: 80%;
+				margin: 115px 120px 0;
+				height: 70%;
+
+				.l {
+					height: 120px;
+					display: inline-block;
+					float: left;
+					vertical-align: top;	
+
+					img {
+						display: block;
+					}
+
+					h1 {
+						text-transform: uppercase;
+						font-family: "Oswald-Regular", Arial, sans-serif;
+						font-size: 24px;
+						color: #4eabab;
+						font-weight: 100;
+						letter-spacing: .3px;
+					}
+				}
+
+				.r {
+					display: inline-block;
+					float: right;
+					vertical-align: top;
+					height: 120px;
+
+					.place {
+						display: block;
+						margin: 5px 12.5px;
+						height: 65px;
+
+						p {
+							font-family: "Lekton-Regular", Arial, sans-serif;
+							font-size: 13px;
+							color: #333333;
+							text-transform: uppercase;
+							line-height: 110%;
+							letter-spacing: .1px;
+						}
+					}
+
+					.contact_info {
+						display: block;
+						text-transform: uppercase;
+						font-size: 13px;
+						margin: 12px 13px;
+
+						.phone {
+							font-family: "Lekton-Regular", Arial, sans-serif;
+							color: #333333;
+						}
+
+						.mail {
+							font-family: "Lekton-Bold", Arial, sans-serif;
+							color: #60d4d4;
+							margin-top: -8px;
+						}
+					}
+				}
+
+				.social {
+					display: flex;
+					justify-content: space-between;
+					margin: 75px 138px;
+					width: 170px;
+					height: 14px;
+
+					img {
+						display: inline-block;
+						margin: 0 5.8px;
+						cursor: pointer;
+					}
+				}
+			}
+		}
+	}
+}

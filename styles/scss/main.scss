@@ -1,0 +1,45 @@
+*,
+*:before,
+*:after {
+	position: relative;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	box-sizing: border-box;
+	z-index: 0;
+	outline: none;
+	background-size: 100.1%;
+	background-repeat: no-repeat;
+}
+*:hover {
+	transition: color 0.3s ease-in-out 0s; 
+}
+
+html {
+	display: block;
+	height: 6950px;// 6950px
+	width: 100%;
+	overflow-x: hidden;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	background-color: #161616;
+}
+
+//Imports
+
+// Fonts
+@import "_fonts.scss";
+
+// Import all scss files in one
+@import "_variables.scss";
+@import "_mixins.scss";
+
+@import "_header.scss";
+@import "_article.scss";
+@import "_aside.scss";
+@import "_footer.scss";
+
+@import "_media_quires.scss";

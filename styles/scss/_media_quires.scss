@@ -1,0 +1,623 @@
+// Header
+// My phone
+@media (max-width: 575.98px) {
+	html {
+		height: 6950px+1512px;
+	}
+	
+	body {
+		overflow-x: hidden;
+	}
+
+	header {
+		height: 680px/6950px*100%;
+
+		section {
+			height: 50%;
+			width: 100%;
+		}
+
+		#left-active {
+			width: 0%;
+			
+			.content {
+				
+				.close_menu {
+					
+					margin-left: 40px*100%/650px;
+					margin-top: 40px*100%/504px;
+
+				}
+
+				.nav {
+					margin-top: 35px/504px*100%;
+					margin-left: 100px/650px*100%;
+					width: 70%;
+
+					a {
+						font-size: 13px;
+						&:hover {
+
+						}
+					}
+
+					div {
+						height: 18px;
+					}
+				}
+
+				.logo_cl {
+					margin-left: 50px*100%/650px;
+				}
+
+				h1 {
+					font-size: 25px;
+					margin-left: 50px*100%/650px;
+				}
+			}
+
+			.social {
+				display: flex;
+				justify-content: space-between;
+				margin-left: 50px*100%/650px;
+				margin-top: 170px*100%/504px;
+				width: 100%;
+				padding: 0;
+
+
+				.messangers {
+					display: flex;
+					justify-content: space-between;
+
+					a {
+						img {
+
+						}
+					}
+				}
+
+				.phone {
+					display: inline-block;
+					width: 130px;
+					margin-top: -2px;
+					margin-right: 55px;
+					
+					p {
+						font-size: 3vw;
+
+					}
+					a {
+						margin-left: 0px;
+						float: right;
+					}
+				}
+			}
+		}
+
+		#left {
+			
+			.menu {
+				margin-left: 40px*100%/650px;
+				margin-top: 40px*100%/504px;
+			}
+			
+			.content {
+				width: 100%;
+				margin-left: 40px*100%/650px;
+
+				.logo {
+
+				}
+
+				h1 {
+					pre {
+						font-size: 25px;
+					}
+				}
+			}
+
+			.social {
+				display: flex;
+				justify-content: space-between;
+				margin-left: 60px*100%/650px;
+				width: 100%;
+
+				.messangers {
+					display: flex;
+					justify-content: space-between;
+
+					a {
+						img {
+
+						}
+					}
+				}
+
+				.phone {
+					display: inline-block;
+					width: 130px;
+					margin-top: 2px;
+					
+					p {
+						font-size: 3vw;
+
+					}
+					a {
+						margin-left: 0px;
+						float: right;
+					}
+				}
+			}
+		}
+
+		#right {
+			display: block;
+			float: left;
+			
+			.bgc {
+				top: -84px*100%/500px;
+
+				.content {
+					top: 90px/500px*100%;
+					left: 1%;
+					width: 100%;
+					line-height: 20px;
+
+					h3 {
+						margin-top: 30px;
+						font-size: 5vw;
+					}
+
+					h4 {
+						margin-top: 10px;
+						font-size: 3vw;
+					}
+
+					.view {
+						position: absolute;
+						display: block;
+						margin-top: 20px/500px*100%;
+						background-color: rgba(0, 0, 0, 0);
+						border: 1px solid #9a977a;
+						text-align: center;
+						width: 121px;
+						height: 35px;
+						cursor: pointer;
+
+						.text {
+							display: block;
+							color: #fbfbfa;
+							text-transform: uppercase;
+							margin: 2px -16px -2px;
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	article {
+		
+		#About_us {
+			height: 600px;
+			
+			.header {
+				padding-top: 150px/2100px*100%;
+				top: 0;
+
+				h1 {
+					font-size: 25px;
+				}
+			}
+
+			.content {
+				width: 90%;
+				font-size: 13px;
+				margin: 100px/2100px*100% auto 0;
+			}
+
+			.skills {
+				display: block;
+				width: 100%;
+				margin: 150px/2100px*100% auto 0;
+				
+				.sec, .thi, .for {
+					margin-left: 0;
+
+					h4 {
+						margin-left: 0;
+					}
+				}
+
+				.block {
+					display: inline-block;
+					
+					width: 46.5%;
+					height: 40%;
+					vertical-align: top;
+
+					.marker {
+						display: inline-block;
+						height: 15px;
+					}
+
+					h4 {
+						display: inline-block;
+						font-size: 4vw;
+						margin-left: 8px;
+						margin-top: -20px;
+					}
+					p {
+						font-size: 3vw;
+					}
+				}
+
+				.block:nth-child(3) {
+					display: block;
+					height: 40%;
+				}
+
+				.block:nth-child(1),
+				.block:nth-child(3) {
+					margin-right: 5%;
+					.marker {
+						height: 30px;
+					}
+
+					h4 {
+						margin-top: -30px;
+					}
+				}
+				
+				.block:nth-child(1), .block:nth-child(2) {
+					margin-bottom: 20px;
+				}
+				.block:nth-child(2), .block:nth-child(4) {
+					.marker {
+						
+					}
+
+					h4 {
+						margin-top: 0px;
+					}
+				}
+				.block:nth-child(4) {
+					margin-left: 5%;
+				}
+			}
+		}
+
+		#Teams {
+			height: 490px/4995px*100%;
+
+			.team1 {
+				
+				.left {
+
+				}
+
+				.right {
+
+				}
+			}
+
+			.team2 {
+				
+				.left {
+
+				}
+
+				.right {
+
+				}
+			}
+
+			div {
+				div {
+					display: block;
+					width: 100%;
+					height: 50%;
+
+					div {
+						padding: 5px;
+
+						.content {
+							margin: 160px auto 0;
+							width: 100%;
+							height: 51%;
+
+							h1 {
+								font-size: 23px;
+							}
+
+							h3 {
+								margin-top: 3px;
+								font-size: 13px;
+
+							}
+							pre {
+								p {
+									display: block;
+									font-size: 9px;
+									font-weight: bold;
+									margin-top: 15px;
+								}
+							}
+							
+							.social {
+
+							}
+						}
+
+						.ls {
+							
+						}
+
+						.rs {
+							
+						}
+					}
+				}
+			}
+
+		}
+		
+		#Our_process {
+			padding: 0 15px;
+			height: 530px/4995px*100%;
+
+			.header {
+				padding-top: 150px/2100px*100%;
+				top: 0;
+				h1 {
+					font-size: 25px;				
+				}
+
+				p {
+					display: block;
+					font-size: 13px;
+					width: 90%;
+					margin: 15px auto;
+				}
+			}
+
+			.list {
+				display: block;
+				margin-top: 30px;
+				width: 100%;
+
+				.block {
+					margin-top: 20px;
+					width: 48%;
+
+					img {
+
+					}
+
+					h6 {
+
+					}
+
+					p {
+						font-size: 11px;
+						text-align: center;
+						width: 90%;
+						margin: 5px auto 0;
+					}
+				}
+
+				&:nth-child(1), &:nth-child(3) {
+					display: inline-block;
+				}
+
+				&:nth-child(2), &:nth-child(4) {
+					display: block;
+				}
+			}
+		}
+
+		#Portfolio {
+			height: 600px/4995px*100%;
+			
+			.content {
+				height: 450px/600px*100%;
+
+				nav {
+
+					.header {
+						h1 {
+
+						}
+
+						.nav {
+							margin-top: 20px;
+
+							a {
+
+							}
+
+							.side-line {
+								
+							}
+
+							
+							.side-line:nth-child(6) {
+								display: block;
+								background-color: rgba(0,0,0,0);
+							}
+							
+
+							a:nth-child(7) {
+								
+							}
+						}
+					}
+
+					.selecting {
+						margin-top: -20px;
+						height: 305px/1623px*100%;
+
+						div {
+							.r1 {
+
+							}
+
+							.r2 {
+
+							}
+
+							&.grid_column_1 {
+
+							}
+
+							&.grid_column_2 {
+
+							}
+
+							&.grid_column_3 {
+
+							}
+
+							&.subgrid {
+								div {
+									&.r_2_1 {
+
+									}
+
+									&.r_2_2 {
+
+									}
+								}
+							}
+
+							&.vsubgrid {
+								div {
+									&.c_2_1 {
+
+									}
+
+									&.c_2_2 {
+
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+
+			button {
+				
+			}
+		}
+	}
+
+	#Stats {
+		width: 100%;
+		height: 200px/4995px*100%;
+		text-align: center;
+
+		.header {
+			top: 20px;
+			
+			h1 {
+				font-family: "Oswald-Light", Arial, sans-serif;
+				font-size: 30px;
+				font-weight: 1000;
+				color: #60d4d4;
+				text-transform: uppercase;
+			}
+		}
+
+		.f_layer {
+			display: flex;
+			justify-content: space-between;
+			width: 80%;
+			margin: 80px auto;
+			.block {
+				img {
+
+				}
+
+				h3 {
+					font-family: "Oswald-Light", Arial, sans-serif;
+					font-size: 16px;
+					font-weight: 100;
+					text-transform: uppercase;
+					color: #60d4d4;
+				}
+			}
+		}
+
+		.s_layer {
+			display: flex;
+			justify-content: space-between;
+			width: 80%;
+			margin: 0 auto;
+			.block {
+				img {
+
+				}
+
+				h3 {
+					font-family: "Oswald-Light", Arial, sans-serif;
+					font-size: 16px;
+					font-weight: 100;
+					text-transform: uppercase;
+					color: #60d4d4;
+				}
+			}
+		}
+	}
+
+	#Blog {
+		.content {
+			padding-top: 10px;
+
+			.header {
+				h1 {
+
+				}
+			}
+
+			.news {
+				.blog {
+					.info {
+						display: block;
+
+						.block_b {
+							display: block;
+							width: 100%;
+							height: 50%;
+
+							img {
+
+							}
+						}
+						.block_s {
+							display: block;
+							width: 50%;
+							height: 50%;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+	
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+
+	
+}
